@@ -19,7 +19,40 @@ main {
     background: hsl(216, 50%, 16%);
 }
 
+.container {
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
+.equilibrium {
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.eye-img {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover .equilibrium {
+    opacity: 0.5;
+}
+
+.container:hover {
+    background-color: rgb(153, 153, 153);
+}
+
+.container:hover .eye-img {
+    opacity: 1;
+}
+
+.description-bottom {
+    border-bottom: 1.5px solid hsl(215, 32%, 27%);
+}
 
 
 
