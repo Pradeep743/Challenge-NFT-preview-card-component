@@ -39,7 +39,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Tailwind](https://reactjs.org/) - CSS framework
+- [Tailwind CSS](https://tailwindcss.com) - CSS framework
 
 
 ### What I learned
